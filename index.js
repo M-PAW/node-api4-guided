@@ -1,3 +1,7 @@
+require('dotenv').config();
+//read from a .env file located at the root 
+// and merge the key/value pairs into process.
+
 const server = require('./api/server.js');
 
 // Make the port be assigned by the server
